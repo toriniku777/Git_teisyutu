@@ -21,7 +21,6 @@ enum {
 	ISU1,
 	ISU2,
 	TUKUE,
-	DAIDOKORO,
 	IE,
 
 	OBJECT_NUM

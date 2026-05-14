@@ -1,13 +1,14 @@
-﻿  Camera.cpp
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(34,20): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(39,20): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(44,20): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(49,20): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
-  Enemy.cpp
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Enemy\Enemy.cpp(12,32): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Enemy\Enemy.cpp(179,22): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
-  player.cpp
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\player\player.cpp(123,26): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\player\player.cpp(125,26): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+﻿  main.cpp
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\main.cpp(31,15): warning C4930: 'SceneManeger Loop(void)': プロトタイプされている関数が呼び出されませんでした (変数の定義が意図されていますか?)
+  BackGround.cpp
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\BackGround\BackGround.cpp(123,18): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+  CollisionManeger.cpp
+  PlayScene.cpp
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\scene\PlayScene.cpp(14,12): warning C4353: 非標準の拡張機能が使用: 関数式として定数 0 が使用されています。本来の '__noop' 関数を使用してください
+  SceneManeger.cpp
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\scene\SceneManeger.cpp(97,37): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\scene\SceneManeger.cpp(97,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\scene\SceneManeger.cpp(105,37): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\scene\SceneManeger.cpp(105,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   コードを生成中...
-  shooting3D.vcxproj -> C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\x64\Debug\shooting3D.exe
+  shooting3D.vcxproj -> C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\x64\Debug\shooting3D.exe
