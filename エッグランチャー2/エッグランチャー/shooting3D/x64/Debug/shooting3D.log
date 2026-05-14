@@ -1,0 +1,13 @@
+﻿  Camera.cpp
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(34,20): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(39,20): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(44,20): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(49,20): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+  Enemy.cpp
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Enemy\Enemy.cpp(12,32): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\Enemy\Enemy.cpp(179,22): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  player.cpp
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\player\player.cpp(123,26): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\src\src\player\player.cpp(125,26): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  shooting3D.vcxproj -> C:\Users\2409425\Desktop\エッグランチャー2\エッグランチャー\x64\Debug\shooting3D.exe

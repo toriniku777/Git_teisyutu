@@ -1,0 +1,655 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\player\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\EnemyManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\EnemyManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Collision\\CollisionManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Collision\\CollisionManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\DebugCamera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\DebugCamera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\DebugCamera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\DebugCamera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\CameraManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\CameraManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\CameraManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\CameraManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\kari.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\BackGround\\kari.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\BackGround.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\BackGround\\BackGround.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\BackGround.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\BackGround\\BackGround.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Input\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Input\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\FPS\\fps.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\FPS\\fps.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\FPS\\fps.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\FPS\\fps.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Fade\\fade.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Fade\\fade.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Fade\\fade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Fade\\fade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\PlayScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Controll\\InputPad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Controll\\InputPad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Collision\\collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Collision\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\shot\\ShotManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Sistem\\SoundManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Sistem\\SoundManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\shot\\ShotManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\shot\\Shot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\SceneManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\SceneManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Sound\\sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\Sound\\sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\2409425\\Downloads\\InputPad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\2409425\\Downloads\\InputPad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 271,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp",
+              "RelativeToolTip": "src\\src\\Enemy\\Enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-28T08:33:16.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\EnemyManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp",
+              "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-28T08:33:21.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyManeger.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\EnemyManeger.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h",
+              "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-28T08:34:06.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "player.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.cpp",
+              "RelativeDocumentMoniker": "src\\src\\player\\player.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.cpp",
+              "RelativeToolTip": "src\\src\\player\\player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-24T14:32:11.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "player.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h",
+              "RelativeDocumentMoniker": "src\\src\\player\\player.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h",
+              "RelativeToolTip": "src\\src\\player\\player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-24T14:32:12.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Camera\\Camera.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp",
+              "RelativeToolTip": "src\\src\\Camera\\Camera.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-24T14:32:05.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\Enemy.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h",
+              "RelativeToolTip": "src\\src\\Enemy\\Enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-28T09:14:30.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollisionManeger.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h",
+              "RelativeDocumentMoniker": "src\\src\\Collision\\CollisionManeger.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h",
+              "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T03:08:40.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CollisionManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Collision\\CollisionManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp",
+              "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAACoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T03:08:37.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DebugCamera.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\DebugCamera.h",
+              "RelativeDocumentMoniker": "src\\src\\Camera\\DebugCamera.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\DebugCamera.h",
+              "RelativeToolTip": "src\\src\\Camera\\DebugCamera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-30T01:19:21.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CameraManeger.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\CameraManeger.h",
+              "RelativeDocumentMoniker": "src\\src\\Camera\\CameraManeger.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\CameraManeger.h",
+              "RelativeToolTip": "src\\src\\Camera\\CameraManeger.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-24T14:32:08.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CameraManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\CameraManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Camera\\CameraManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\CameraManeger.cpp",
+              "RelativeToolTip": "src\\src\\Camera\\CameraManeger.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-24T14:32:07.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Camera.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.h",
+              "RelativeDocumentMoniker": "src\\src\\Camera\\Camera.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.h",
+              "RelativeToolTip": "src\\src\\Camera\\Camera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-24T14:32:06.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DebugCamera.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\DebugCamera.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Camera\\DebugCamera.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\DebugCamera.cpp",
+              "RelativeToolTip": "src\\src\\Camera\\DebugCamera.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-10T10:33:40.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "kari.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\kari.cpp",
+              "RelativeDocumentMoniker": "src\\src\\BackGround\\kari.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\kari.cpp",
+              "RelativeToolTip": "src\\src\\BackGround\\kari.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T08:55:41.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BackGround.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\BackGround.h",
+              "RelativeDocumentMoniker": "src\\src\\BackGround\\BackGround.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\BackGround.h",
+              "RelativeToolTip": "src\\src\\BackGround\\BackGround.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-26T00:54:50.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BackGround.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\BackGround.cpp",
+              "RelativeDocumentMoniker": "src\\src\\BackGround\\BackGround.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\BackGround.cpp",
+              "RelativeToolTip": "src\\src\\BackGround\\BackGround.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-26T00:54:35.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "input.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.h",
+              "RelativeDocumentMoniker": "src\\lib\\Input\\input.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.h",
+              "RelativeToolTip": "src\\lib\\Input\\input.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-24T14:54:59.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "input.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.cpp",
+              "RelativeDocumentMoniker": "src\\lib\\Input\\input.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.cpp",
+              "RelativeToolTip": "src\\lib\\Input\\input.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T03:28:46.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "fps.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\FPS\\fps.h",
+              "RelativeDocumentMoniker": "src\\lib\\FPS\\fps.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\FPS\\fps.h",
+              "RelativeToolTip": "src\\lib\\FPS\\fps.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-21T05:20:08.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "fps.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\FPS\\fps.cpp",
+              "RelativeDocumentMoniker": "src\\lib\\FPS\\fps.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\FPS\\fps.cpp",
+              "RelativeToolTip": "src\\lib\\FPS\\fps.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T02:50:03.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "fade.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Fade\\fade.h",
+              "RelativeDocumentMoniker": "src\\lib\\Fade\\fade.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Fade\\fade.h",
+              "RelativeToolTip": "src\\lib\\Fade\\fade.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T03:37:06.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "fade.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Fade\\fade.cpp",
+              "RelativeDocumentMoniker": "src\\lib\\Fade\\fade.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Fade\\fade.cpp",
+              "RelativeToolTip": "src\\lib\\Fade\\fade.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T03:27:34.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlayScene.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp",
+              "RelativeDocumentMoniker": "src\\src\\scene\\PlayScene.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp",
+              "RelativeToolTip": "src\\src\\scene\\PlayScene.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-24T14:32:13.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PlayScene.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.h",
+              "RelativeDocumentMoniker": "src\\src\\scene\\PlayScene.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.h",
+              "RelativeToolTip": "src\\src\\scene\\PlayScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-24T14:32:14.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SoundManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Sistem\\SoundManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Sistem\\SoundManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Sistem\\SoundManeger.cpp",
+              "RelativeToolTip": "src\\src\\Sistem\\SoundManeger.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T05:45:14.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "collision.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.h",
+              "RelativeDocumentMoniker": "src\\lib\\Collision\\collision.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.h",
+              "RelativeToolTip": "src\\lib\\Collision\\collision.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-08T05:21:07.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "collision.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.cpp",
+              "RelativeDocumentMoniker": "src\\lib\\Collision\\collision.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.cpp",
+              "RelativeToolTip": "src\\lib\\Collision\\collision.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T05:21:06.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InputPad.h",
+              "DocumentMoniker": "D:\\Users\\2409425\\Downloads\\InputPad.h",
+              "ToolTip": "D:\\Users\\2409425\\Downloads\\InputPad.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-25T05:07:26.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InputPad.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.cpp",
+              "RelativeDocumentMoniker": "src\\lib\\Controll\\InputPad.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.cpp",
+              "RelativeToolTip": "src\\lib\\Controll\\InputPad.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-09T01:04:50.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ShotManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\shot\\ShotManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.cpp",
+              "RelativeToolTip": "src\\src\\shot\\ShotManeger.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAApwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-25T01:18:18.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InputPad.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.h",
+              "RelativeDocumentMoniker": "src\\lib\\Controll\\InputPad.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.h",
+              "RelativeToolTip": "src\\lib\\Controll\\InputPad.h",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-09T01:03:43.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InputPad.cpp",
+              "DocumentMoniker": "D:\\Users\\2409425\\Downloads\\InputPad.cpp",
+              "ToolTip": "D:\\Users\\2409425\\Downloads\\InputPad.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-25T05:07:25.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ShotManeger.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.h",
+              "RelativeDocumentMoniker": "src\\src\\shot\\ShotManeger.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.h",
+              "RelativeToolTip": "src\\src\\shot\\ShotManeger.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-26T00:55:04.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Shot.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.h",
+              "RelativeDocumentMoniker": "src\\src\\shot\\Shot.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.h",
+              "RelativeToolTip": "src\\src\\shot\\Shot.h",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T01:15:48.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Shot.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp",
+              "RelativeDocumentMoniker": "src\\src\\shot\\Shot.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp",
+              "RelativeToolTip": "src\\src\\shot\\Shot.cpp",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-25T01:15:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T02:51:30.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SceneManeger.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.h",
+              "RelativeDocumentMoniker": "src\\src\\scene\\SceneManeger.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.h",
+              "RelativeToolTip": "src\\src\\scene\\SceneManeger.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-08T06:01:22.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SceneManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\scene\\SceneManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp",
+              "RelativeToolTip": "src\\src\\scene\\SceneManeger.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T02:50:26.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "sound.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Sound\\sound.h",
+              "RelativeDocumentMoniker": "src\\lib\\Sound\\sound.h",
+              "ToolTip": "C:\\Users\\2409425\\Desktop\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Sound\\sound.h",
+              "RelativeToolTip": "src\\lib\\Sound\\sound.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T03:37:08.167Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
