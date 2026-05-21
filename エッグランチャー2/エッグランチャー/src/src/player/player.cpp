@@ -114,12 +114,7 @@ void Player::Step(ShotManeger& shot)
 	//’e‚Ì”­ŽË
 	if (Input::IsInputTrg(KEY_EGGSHOT))
 	{
-		int count = 0;
 		VECTOR speed;
-		if (m_rot.x >= 360.0)
-		{
-			m_rot.x = 0.0;
-		}
 		speed.x = sinf(m_rot.y + 0.0) * -SHOT_SPEED;
 		speed.y = m_rot.x;
 		speed.z = cosf(m_rot.y + 0.0) * -SHOT_SPEED;

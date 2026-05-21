@@ -1,3 +1,4 @@
-﻿  BackGround.cpp
-C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\BackGround\BackGround.cpp(123,18): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+﻿  player.cpp
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\player\player.cpp(118,26): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\player\player.cpp(120,26): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
   shooting3D.vcxproj -> C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\x64\Debug\shooting3D.exe
