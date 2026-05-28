@@ -5,21 +5,7 @@ static const char* BackGround_MODEL_PATH[] =
 { 
 "Data/Model/sky/sky.mv1",
 "Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-//"Data/Model/field/sibahuu.x",
-"Data/Model/field/椅子.x",
-"Data/Model/field/椅子.x",
-"Data/Model/field/机.x",
-//"Data/Model/field/いえ.x"
+"Data/Model/field/saku.x"
 };
 //-------------------------------
 
@@ -52,39 +38,21 @@ void BackGround::Load()
     }
     VECTOR scale[OBJECT_NUM] =
     {
-        //天球、芝生、芝生、芝生、芝生
-       {35.0f,35.0f,35.0f},{500 ,1.0f,500.0f },//{10.0f,1.0f,10.0f },{ 10.0f,1.0f,10.0f },{ 10.0f,1.0f,10.0f },
-         //芝生、芝生、芝生、芝生、芝生
-        //{ 10.0f,1.0f,10.0f },{ 10.0f,1.0f,10.0f },{ 10.0f,1.0f,10.0f },{ 10.0f,1.0f,10.0f },{ 10.0f,1.0f,10.0f },
-          //芝生、芝生、芝生、椅子、椅子
-         /*{10.0f,1.0f,10.0f},{10.0f,1.0f,10.0f},{10.0f,1.0f,10.0f},*/{1.0f,1.0f,1.0f},{1.0f,1.0f,1.0f},
-           //机、家
-          { 1.0f,1.0f,1.0f }//,{ 1.0f,1.0f,1.0f }
+        //天球、芝生、柵
+       {100.0f,100.0f,100.0f},{1500 ,1.0f,1500.0f },{1.0f,1.0f,1.0f }
     };
 
     VECTOR posision[OBJECT_NUM] =
     {
-        //天球、芝生、芝生、芝生、芝生
-       {0.0f,0.0f,0.0f},{0.0f,-2.0f,0.0f },//{145.0f,-2.0f,0.0f },{-145.0f,-2.0f,0.0f },{0.0f,-2.0f,145.0f },
-         //芝生、芝生、芝生、芝生、芝生
-        //{0.0f,-2.0f,-145.0f },{145.0f,-2.0f,145.0f },{-145.0f,-2.0f,-145.0f },{-145.0f,-2.0f,145.0f },{145.0f,-2.0f,-145.0f },
-          //芝生、芝生、芝生、椅子、椅子
-         /*{290.0f,-2.0f,-145.0f},{290.0f,-2.0f,0.0f},{290.0f,-2.0f,145.0f},*/{210.0f,0.2f,0.0f},{-70.0f,0.2f,0.0f},
-           //机、家
-          {70.0f,0.0f,0.0f }//,{0.0f,0.0f,0.0f}
+        //天球、芝生、柵
+       {0.0f,0.0f,0.0f},{0.0f,-2.0f,0.0f },{0.0f,0.0f,2000.0f }
 
     };
 
     VECTOR rotate[OBJECT_NUM] =
     {
-        //天球、芝生、芝生、芝生、芝生
-       {0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},//{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},
-         //芝生、芝生、芝生、芝生、芝生
-        //{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},
-          //芝生、芝生、芝生、椅子、椅子
-         /*{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},*/{0.0f,0.0f,0.0f},{0.0f,3.14f,0.0f},
-           //机、家
-          {0.0f,0.0f,0.0f}//,{0.0f,0.0f,0.0f}
+        //天球、芝生、柵  
+       {0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,1.57f,0.0f }
 
     };
 

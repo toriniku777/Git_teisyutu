@@ -7,11 +7,11 @@
 extern Player m_pl;
 //定義関連
 
-static const VECTOR ZERO = { 0.0f,0.0f,0.0f };
+static const VECTOR ZERO = { 0.0f,0.0f,0.0f };//モデル角度
 static const float SIN_Y_MAX = 5.0;
 static const float SIN_X_MAX = 0.1;
 
-#define MOVESPEED = 1.0f;
+
 #define DEBUG
 //-------------------------------
 
@@ -40,7 +40,8 @@ Enemy::~Enemy()
 //---------------------
 void Enemy::Init()
 {
-   m_pos = m_speed = ZERO;
+    m_pos = m_speed = ZERO; 
+   
     m_radius = 40.0f;
     m_scale = { 5.0f,5.0f,5.0f };
     m_rot = ZERO;
@@ -82,16 +83,12 @@ void Enemy::Step(VECTOR PlayerPos)
     //呼び出されていない場合は終了
     if (!m_isActive)return;
 
-    if (m_isActive) {
-        VECTOR v1 = { 0.01f,0.01f,0.01f };
-        //VECTOR v2 = VSub(m_pos, PlayerPos);
-        //VECTOR v3 = VCross(v1, v2);
-        //v3 = VNorm(v3);
-        //v3 = VScale(v3, 3.0f);
-        //m_pos = VAdd(m_pos, v3);
+    if (m_isActive) 
+    {
+        VECTOR v1 = { 0.01f,10.01f,0.01f };//回転速度
 
         //上がり下がり移動
-      /*  m_rot.y += SIN_X_MAX;
+        m_rot.y += SIN_X_MAX;
         m_pos.y += sinf(m_rot.y) * SIN_Y_MAX;
         MATRIX mat1, mat2, mat3, mat4;
         mat1 = MGetTranslate(m_pos);
@@ -99,32 +96,10 @@ void Enemy::Step(VECTOR PlayerPos)
         mat1 = MMult(mat1, mat3);
         m_pos.x = mat1.m[3][0];
         m_pos.y = mat1.m[3][1];
-        m_pos.z = mat1.m[3][2];*/
-
-
+        m_pos.z = mat1.m[3][2];
     }
 
-    /*左に回る
-    else if (CheckHitKey(KEY_INPUT_LEFT)) {
-        VECTOR v1 = { 0.0f,0.5f,0.0f };
-        VECTOR v2 = VSub(m_pos, PlayerPos);
-        VECTOR v3 = VCross(v2, v1);
-        v3 = VNorm(v3);
-        v3 = VScale(v3, 3.0f);
-        m_pos = VAdd(m_pos, v3);
-    }*/
-
-    //int x =  PlayerPos.x;
-    //int z =  PlayerPos.z;
-    //m_speed.x = x - m_pos.x;
-    //m_speed.y = 0.0f;
-    //m_speed.z = z - m_pos.z;
-    //m_rot.y = atan2(-m_speed.x, -m_speed.z);
-    ////方向ベクトルの長さを計算
-    //m_speed.x = -sinf(m_rot.y);
-    //m_speed.y = 0.0f;
-    //m_speed.z = -cosf(m_rot.y);
-    //m_pos = VAdd(m_pos, m_speed);
+   
 
 }
 

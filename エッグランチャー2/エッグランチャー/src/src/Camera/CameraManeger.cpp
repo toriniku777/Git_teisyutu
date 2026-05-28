@@ -19,7 +19,7 @@ void CameraManeger::Init()
 	//‚»‚ê‚¼‚ê‚ÌƒJƒƒ‰‚Ì‰Šú‰»
 	m_play.Init();
 	m_debug.Init();
-	SetCameraNearFar(1.0f, 5000.0f);
+	SetCameraNearFar(1.0f, 50000.0f);
 }
 
 void CameraManeger::Step(VECTOR forcus, float rotY)

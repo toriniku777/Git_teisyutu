@@ -63,7 +63,7 @@ void PlayCamera::Step(VECTOR forcus, float rotY)
 
 	// 行列計算でカメラ位置を求める-----------------------------
 	VECTOR ChikinPos = forcus;
-	VECTOR matDefault = { 0.0f, 60.0f, -200.0f };
+	VECTOR matDefault = { 0.0f, 50.0f, -500.0f };
 
 	MATRIX matResult;
 	MATRIX matDefPos = MGetTranslate(matDefault);

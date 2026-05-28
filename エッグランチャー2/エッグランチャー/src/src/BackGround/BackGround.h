@@ -6,22 +6,8 @@
 enum {
 	//GROUND,
 	SKY,
-	SIBAHU1,
-	//SIBAHU2,
-	//SIBAHU3,
-	//SIBAHU4,
-	//SIBAHU5,
-	//SIBAHU6,
-	//SIBAHU7,
-	//SIBAHU8,
-	//SIBAHU9,
-	//SIBAHU10,
-	//SIBAHU11,
-	//SIBAHU12,
-	ISU1,
-	ISU2,
-	TUKUE,
-	//IE,
+	SIBAHU,
+	SAKU,
 
 	OBJECT_NUM
 };

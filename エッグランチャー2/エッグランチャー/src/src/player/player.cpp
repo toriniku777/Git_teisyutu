@@ -25,7 +25,7 @@ static const char PLAYER_MODEL_PATH[] = {
 };
 
 static const float ROTATE_SPEED = 0.1f;
-static const float MOVE_SPEED = 5.0f;
+static const float MOVE_SPEED = 10.0f;
 static const float SHOT_SPEED = 10.0f;
 static const VECTOR ZERO = { 0.0f,0.0f,0.0f };
 //-------------------------------
@@ -56,13 +56,13 @@ Player::~Player()
 //---------------------
 void Player::Init()
 {
-	m_pos = { 200.0f,0.0f,200.0 };
+	m_pos = { 0.0f,0.0f,0.0 };
 	m_rot = { 0.0f,3.15f,0.0f };
 	m_scale = { 2.0f,2.0f,2.0f };
 	m_speed = ZERO;
 	m_state = PLSTATE_NORMAL;
 	m_isActive = true;
-	m_radius = 40.0f;
+	m_radius = 52.0f;
 	m_hndl = -1;
 
 	//’Ç‰Á
