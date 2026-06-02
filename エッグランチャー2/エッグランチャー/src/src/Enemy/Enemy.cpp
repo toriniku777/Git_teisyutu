@@ -20,10 +20,12 @@ static const float SIN_X_MAX = 0.1;
 //--------------------
 Enemy::Enemy()
 {
-    //‰Šú‰»
-    m_pos = m_speed = ZERO;
-    m_hndl = -1;
-    m_isActive = false;//Å‰‚Í•\¦‚µ‚È‚¢
+    ////‰Šú‰»
+    ////m_pos = m_speed = ZERO;
+    //m_hndl = -1;
+    //m_isActive = false;//Å‰‚Í•\¦‚µ‚È‚¢
+
+    Init();
 }
 
 //---------------------
@@ -40,8 +42,9 @@ Enemy::~Enemy()
 //---------------------
 void Enemy::Init()
 {
-    m_pos = m_speed = ZERO; 
-   
+    m_pos = m_speed = ZERO;
+    
+
     m_radius = 40.0f;
     m_scale = { 5.0f,5.0f,5.0f };
     m_rot = ZERO;
@@ -129,6 +132,10 @@ void Enemy::Draw()
         //“–‚½‚è”»’è‚ğ–Ú‹‚Å‚«‚é
         DrawSphere3D(GetCenter(), m_radius, 16, GetColor(255, 0, 0),
             GetColor(255, 0, 0), false);
+
+        DrawFormatString(20, 80, GetColor(255, 255, 0), "P_pos.x:%.2f", m_pos.x);
+        DrawFormatString(20, 100, GetColor(255, 255, 0), "P_pos.y:%.2f", m_pos.y);
+        DrawFormatString(20, 120, GetColor(255, 255, 0), "P_pos.z:%.2f", m_pos.z);
 #endif // DEBUG
 
     }

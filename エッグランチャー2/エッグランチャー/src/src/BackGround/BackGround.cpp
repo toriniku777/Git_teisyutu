@@ -5,6 +5,7 @@ static const char* BackGround_MODEL_PATH[] =
 { 
 "Data/Model/sky/sky.mv1",
 "Data/Model/field/sibahuu.x",
+"Data/Model/field/saku.x",
 "Data/Model/field/saku.x"
 };
 //-------------------------------
@@ -39,20 +40,20 @@ void BackGround::Load()
     VECTOR scale[OBJECT_NUM] =
     {
         //天球、芝生、柵
-       {100.0f,100.0f,100.0f},{1500 ,1.0f,1500.0f },{1.0f,1.0f,1.0f }
+       {100.0f,100.0f,100.0f},{1500 ,1.0f,1500.0f },{1.0f,1.0f,1.0f },{1.0f,1.0f,1.0f }
     };
 
     VECTOR posision[OBJECT_NUM] =
     {
         //天球、芝生、柵
-       {0.0f,0.0f,0.0f},{0.0f,-2.0f,0.0f },{0.0f,0.0f,2000.0f }
+       {0.0f,0.0f,0.0f},{0.0f,-2.0f,0.0f },{0.0f,0.0f,2000.0f },{500.0f,0.0f,2000.0f }
 
     };
 
     VECTOR rotate[OBJECT_NUM] =
     {
         //天球、芝生、柵  
-       {0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,1.57f,0.0f }
+       {0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,1.57f,0.0f },{0.0f,1.57f,0.0f }
 
     };
 

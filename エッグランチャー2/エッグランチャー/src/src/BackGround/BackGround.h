@@ -7,7 +7,8 @@ enum {
 	//GROUND,
 	SKY,
 	SIBAHU,
-	SAKU,
+	SAKU1,
+	SAKU2,
 
 	OBJECT_NUM
 };
