@@ -1,9 +1,9 @@
 #include "Shot.h"
 #include <math.h>
 
-//#define DEBUG
+#define DEBUG
 //定義関連
-static const float SHOT_SPEED = 1.0f;
+
 static const VECTOR ZERO = { 0.0f,0.0f,0.0f };
 //-------------------------------
 
@@ -33,7 +33,7 @@ Shot::~Shot()
 void Shot::Init()
 {
     m_pos = m_speed = ZERO;
-    m_radius = 5.0f;
+    m_radius = 50.0f;
     m_hndl = -1;
     m_isActive = false;//最初は表示しない
 }
@@ -72,12 +72,12 @@ void Shot::Step()
     if (!m_isActive)return;
 
     //現在の座標に速度を加算する
-    m_speed.y += -0.05f;
+   // m_speed.y += -0.05f;
     m_pos = VAdd(m_pos, m_speed);
 
     m_activeTime += 0.1;
 
-    if (m_activeTime >= 15.0)
+    if (m_activeTime >= 0.4)
     {
         m_isActive = false;
         m_activeTime = 0.0;

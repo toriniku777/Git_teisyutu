@@ -2,7 +2,7 @@
 #include "Enemy.h"
 
 //“G‚ÌÅ‘å”
-static const int ENEMY_NUM = 1;
+static const int ENEMY_NUM = 10;
 
 //“G‘S‘Ì‚ğŠÇ—‚·‚éƒNƒ‰ƒX
 class EnemyManeger

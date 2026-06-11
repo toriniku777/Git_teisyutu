@@ -6,7 +6,7 @@
 #define KEY_CHANGE_2 (0b1000)
 #define KEY_CHANGE_3 (0b10000)
 #define KEY_CHANGE_4 (0b100000)
-#define KEY_EGGSHOT  (0b1000000)
+#define KEY_EGGISTSHOT  (0b1000000)
  
 class Input
 {

@@ -21,12 +21,13 @@
 
 //定義関連
 static const char PLAYER_MODEL_PATH[] = {
-	"Data/Model/Chikin/ニワトリ - コピー.x",
+	//"Data/Model/Chikin/ニワトリ - コピー.x"
+	"Data/Model/Player/農夫.x"
 };
 
 static const float ROTATE_SPEED = 0.1f;
 static const float MOVE_SPEED = 10.0f;
-static const float SHOT_SPEED = 10.0f;
+static const float SHOT_SPEED = 100.0f;
 static const VECTOR ZERO = { 0.0f,0.0f,0.0f };
 //-------------------------------
 
@@ -57,7 +58,7 @@ Player::~Player()
 void Player::Init()
 {
 	m_pos = { 0.0f,0.0f,0.0 };
-	m_rot = { 0.0f,3.15f,0.0f };
+	m_rot = { 0.0f,0.0f,0.0f };
 	m_scale = { 2.0f,2.0f,2.0f };
 	m_speed = ZERO;
 	m_state = PLSTATE_NORMAL;
@@ -112,14 +113,15 @@ void Player::Step(ShotManeger& shot)
 {
 
 	//弾の発射
-	if (Input::IsInputTrg(KEY_EGGSHOT))
+	if (Input::IsInputTrg(KEY_EGGISTSHOT))
 	{
 		VECTOR speed;
-		speed.x = sinf(m_rot.y + 0.0) * -SHOT_SPEED;
+		speed.x = sinf(m_rot.y + 0.0) * SHOT_SPEED;
 		speed.y = m_rot.x;
-		speed.z = cosf(m_rot.y + 0.0) * -SHOT_SPEED;
+		speed.z = cosf(m_rot.y + 0.0) * SHOT_SPEED;
 		VECTOR pos = m_pos;
-		pos.y += 25.0f;
+		pos.y += 50.0f;
+		
 
 		shot.RequestPlayerShot(pos, speed);
 	}

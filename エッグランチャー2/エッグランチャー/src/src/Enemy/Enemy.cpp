@@ -21,7 +21,7 @@ static const float SIN_X_MAX = 0.1;
 Enemy::Enemy()
 {
     ////‰Šú‰»
-    ////m_pos = m_speed = ZERO;
+    //m_pos = m_speed = ZERO;
     //m_hndl = -1;
     //m_isActive = false;//Å‰‚Í•\¦‚µ‚È‚¢
 
@@ -84,7 +84,7 @@ void Enemy::Exit()
 void Enemy::Step(VECTOR PlayerPos)
 {
     //ŒÄ‚Ño‚³‚ê‚Ä‚¢‚È‚¢ê‡‚ÍI—¹
-    if (!m_isActive)return;
+    if (m_isActive)return;
 
     if (m_isActive) 
     {

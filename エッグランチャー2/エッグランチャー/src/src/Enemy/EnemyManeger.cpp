@@ -96,9 +96,9 @@ void EnemyManeger::Draw()
 void EnemyManeger::Request()
 {
 
-    VECTOR pos = { 200.0f,0.0f,200.0f };//{ (float)GetRand(600) - 300.0f,20.0f,200.0f };
-    //VECTOR pos2 = { (float)GetRand(600) - 300.0f,20.0f,-200.0f };
-    VECTOR speed = { 0,-1.0,1.0 };
+    VECTOR pos = { (float)GetRand(2400) - 1200.0f,20.0f,(float)GetRand(2400)-1200.0f }; //{ 200.0f,0.0f,200.0f };
+    VECTOR pos2 = { (float)GetRand(2400) - 1200.0f,20.0f,(float)GetRand(2400)-1200.0f };
+    VECTOR speed = { 0.0,0.0,0.0 };
 
     for (int i = 0; i < ENEMY_NUM; i++)
     {
@@ -106,9 +106,9 @@ void EnemyManeger::Request()
 
     }
 
-    /*for (int i = 0; i < ENEMY_NUM; i++)
+    for (int i = 0; i < ENEMY_NUM; i++)
     {
         if (m_enemy[i].Request(pos2, speed)) break;
 
-    }*/
+    }
 }
