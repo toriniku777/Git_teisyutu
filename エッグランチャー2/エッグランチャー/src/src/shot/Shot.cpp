@@ -77,7 +77,7 @@ void Shot::Step()
 
     m_activeTime += 0.1;
 
-    if (m_activeTime >= 0.4)
+    if (m_activeTime >= 0.8)
     {
         m_isActive = false;
         m_activeTime = 0.0;

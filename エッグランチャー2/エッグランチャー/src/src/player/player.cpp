@@ -27,7 +27,7 @@ static const char PLAYER_MODEL_PATH[] = {
 
 static const float ROTATE_SPEED = 0.1f;
 static const float MOVE_SPEED = 10.0f;
-static const float SHOT_SPEED = 100.0f;
+static const float SHOT_SPEED = 50.0f;
 static const VECTOR ZERO = { 0.0f,0.0f,0.0f };
 //-------------------------------
 
