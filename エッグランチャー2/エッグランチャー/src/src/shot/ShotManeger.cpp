@@ -3,7 +3,7 @@
 #include <math.h>
 
 //’è‹`ŠÖ˜A
-static const char PLSHOT_MODEL_PATH[] = { "Data/Model/Shot/—‘.x" };
+static const char PLSHOT_MODEL_PATH[] = { "Data/Model/Shot/.x" };
 //-------------------------------
 
 //--------------------

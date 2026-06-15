@@ -33,7 +33,7 @@ void Input::Update()
 	if (CheckHitKey(KEY_INPUT_2))g_inputData.m_nowKey |= KEY_CHANGE_2;
 	if (CheckHitKey(KEY_INPUT_3))g_inputData.m_nowKey |= KEY_CHANGE_3;
 	if (CheckHitKey(KEY_INPUT_4))g_inputData.m_nowKey |= KEY_CHANGE_4;
-	if (GetMouseInput() & MOUSE_INPUT_LEFT)g_inputData.m_nowKey |= KEY_EGGISTSHOT;
+	if (CheckHitKey( KEY_INPUT_SPACE))g_inputData.m_nowKey |= KEY_EGGISTSHOT;
 
 }
 
