@@ -176,8 +176,7 @@
               "RelativeToolTip": "src\\src\\Enemy\\Enemy.cpp",
               "ViewState": "AgIAAG8AAAAAAAAAAAAAAHcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-28T08:33:16.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:33:16.948Z"
             },
             {
               "$type": "Document",
@@ -189,8 +188,7 @@
               "RelativeToolTip": "src\\src\\shot\\Shot.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-25T01:15:20.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:15:20.748Z"
             },
             {
               "$type": "Document",
@@ -202,8 +200,7 @@
               "RelativeToolTip": "src\\src\\shot\\Shot.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-25T01:15:48.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:15:48.604Z"
             },
             {
               "$type": "Document",
@@ -215,8 +212,7 @@
               "RelativeToolTip": "src\\src\\Camera\\Camera.cpp",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAEEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:05.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:05.182Z"
             },
             {
               "$type": "Document",
@@ -226,7 +222,7 @@
               "RelativeDocumentMoniker": "src\\src\\Collision\\CollisionManeger.cpp",
               "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp",
               "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.cpp",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-04T03:08:37.766Z",
               "EditorCaption": ""
@@ -241,8 +237,7 @@
               "RelativeToolTip": "src\\src\\player\\player.cpp",
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAHgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:11.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:11.593Z"
             },
             {
               "$type": "Document",
@@ -254,8 +249,7 @@
               "RelativeToolTip": "src\\src\\shot\\ShotManeger.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-25T01:18:18.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:18:18.027Z"
             },
             {
               "$type": "Document",
@@ -267,8 +261,7 @@
               "RelativeToolTip": "src\\src\\scene\\PlayScene.cpp",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:13.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:13.862Z"
             },
             {
               "$type": "Document",
@@ -280,8 +273,7 @@
               "RelativeToolTip": "src\\src\\scene\\SceneManeger.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T02:50:26.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:50:26.365Z"
             },
             {
               "$type": "Document",
@@ -293,8 +285,7 @@
               "RelativeToolTip": "src\\src\\Enemy\\Enemy.h",
               "ViewState": "AgIAAAcAAAAAAAAAAAAYwBIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-28T09:14:30.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T09:14:30.064Z"
             },
             {
               "$type": "Document",
@@ -306,8 +297,7 @@
               "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.h",
               "ViewState": "AgIAABIAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-28T08:34:06.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:34:06.374Z"
             },
             {
               "$type": "Document",
@@ -319,8 +309,7 @@
               "RelativeToolTip": "src\\lib\\Collision\\collision.cpp",
               "ViewState": "AgIAAFoAAAAAAAAAAAAowIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T05:21:06.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T05:21:06.801Z"
             },
             {
               "$type": "Document",
@@ -332,8 +321,7 @@
               "RelativeToolTip": "src\\src\\Sistem\\SoundManeger.cpp",
               "ViewState": "AgIAACAAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T05:45:14.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T05:45:14.984Z"
             },
             {
               "$type": "Document",
@@ -345,8 +333,7 @@
               "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-04T03:08:40.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:08:40.149Z"
             },
             {
               "$type": "Document",
