@@ -21,7 +21,7 @@ void CollisionManeger::CheckHitShotToEnemy(ShotManeger& shot,
 			//‚»‚ê‚¼‚ê‚ÌÀ•W‚Æ”¼Œa‚ğæ“¾
 			VECTOR shotPos = oneShot.GetCenter();
 			float shotRadius = oneShot.GetRadius();
-			VECTOR enemyPos = oneEnemy.GetCenter();
+	 		VECTOR enemyPos = oneEnemy.GetCenter();
 			float enemyRadius = oneEnemy.GetRadius();
 
 			//“–‚½‚è”»’èŠJn
@@ -32,7 +32,7 @@ void CollisionManeger::CheckHitShotToEnemy(ShotManeger& shot,
 			if (isHit == true)
 			{
 				oneShot.HitCalc();
-				oneEnemy.HitCalc();
+				oneEnemy.HitCalc(oneShot.HitCalc());
 
 			}
 		}
@@ -65,7 +65,7 @@ void CollisionManeger::CheckHitPlayerToEnemy(Player& player,
 		if (isHit == true)
 		{
 			player.HitCalc();
-			oneEnemy.HitCalc();
+			
 
 		}
 	}

@@ -1,7 +1,11 @@
 #include "Enemy.h"
 #include "../Sistem/SoundManeger.h"
 #include "../player/player.h"
+#include "../shot/Shot.h"
 #include <math.h>
+
+#define GRAVITY (0.5f)
+#define	JUMP_POWER	( 8.0f )
 
 //#define DEBUG
 extern Player m_pl;
@@ -50,7 +54,9 @@ void Enemy::Init()
     m_rot = ZERO;
     m_hndl = -1;
     m_isActive = false;//最初は表示しない
-
+    m_jump = 0.0f;
+    m_groundtouch = false;
+    m_state = CKNSTATE_NORMAL;
 }
 
 
@@ -84,23 +90,75 @@ void Enemy::Exit()
 void Enemy::Step(VECTOR PlayerPos)
 {
     //呼び出されていない場合は終了
-    if (m_isActive)return;
+    if (!m_isActive)return;
 
-    if (m_isActive) 
+    m_pos.y += m_jump;
+    
+
+    switch (m_state)
     {
-        VECTOR v1 = { 0.01f,10.01f,0.01f };//回転速度
+    case Enemy::CKNSTATE_NORMAL:
 
-        //上がり下がり移動
-        m_rot.y += SIN_X_MAX;
-        m_pos.y += sinf(m_rot.y) * SIN_Y_MAX;
-        MATRIX mat1, mat2, mat3, mat4;
-        mat1 = MGetTranslate(m_pos);
-        mat3 = MGetRotY(v1.y);
-        mat1 = MMult(mat1, mat3);
-        m_pos.x = mat1.m[3][0];
-        m_pos.y = mat1.m[3][1];
-        m_pos.z = mat1.m[3][2];
+        break;
+
+    case Enemy::CKNSTATE_HIT:
+        m_jump = JUMP_POWER;
+        m_groundtouch = false;
+        m_state = CKNSTATE_FLAY;
+        m_gravity = GRAVITY;
+        m_pos.y += 3.0f;
+
+        printfDx("x:%f\n",m_speed.x);
+        printfDx("y:%f\n", m_speed.y);
+        printfDx("z:%f\n", m_speed.z);
+
+
+
+    case Enemy::CKNSTATE_FLAY:
+
+        m_speed = { m_speed.x / 50.0f,m_speed.y ,m_speed.z / 50.0f };
+        m_speed = { m_speed.x * 43.0f,m_speed.y ,m_speed.z * 43.0f };
+
+        m_pos = VAdd(m_pos, m_speed);
+
+        if (m_pos.y > 1.0f) {
+            m_jump -= m_gravity;
+        }
+        else {
+            m_pos.y = 0.0f;
+            m_jump = 0.0f;
+            m_groundtouch = true;
+        }
+
+        if (m_groundtouch == true)
+        {
+            m_state = CKNSTATE_NORMAL;
+        }
+        
+
+        break;
+
+    case Enemy::PLSTATE_NUM:
+
+        break;
+   
+        break;
     }
+    //if (m_isActive) 
+    //{
+    //    VECTOR v1 = { 0.01f,10.01f,0.01f };//回転速度
+
+    //    //上がり下がり移動
+    //    m_rot.y += SIN_X_MAX;
+    //    m_pos.y += sinf(m_rot.y) * SIN_Y_MAX;
+    //    MATRIX mat1, mat2, mat3, mat4;
+    //    mat1 = MGetTranslate(m_pos);
+    //    mat3 = MGetRotY(v1.y);
+    //    mat1 = MMult(mat1, mat3);
+    //    m_pos.x = mat1.m[3][0];
+    //    m_pos.y = mat1.m[3][1];
+    //    m_pos.z = mat1.m[3][2];
+    //}
 
    
 
@@ -163,9 +221,11 @@ VECTOR Enemy::GetCenter()
     return res;
 }
 
-void Enemy::HitCalc()
+void Enemy::HitCalc(VECTOR shotspeed)
 {
     SoundManeger::Play(SoundManeger::SE_EXPLOSION);
-    //生存フラグを消す
-    m_isActive = false;
+    ////生存フラグを消す
+    //m_isActive = false;
+    m_speed = shotspeed;
+    m_state = CKNSTATE_HIT;
 }

@@ -56,6 +56,6 @@ public:
 	float GetRadius() { return m_radius; }
 	
 	//ƒqƒbƒgŒã‚Ìˆ—
-	void HitCalc();
+	VECTOR HitCalc();
 	
 };

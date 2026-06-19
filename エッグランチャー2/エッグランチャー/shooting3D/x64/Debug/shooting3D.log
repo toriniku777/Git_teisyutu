@@ -1,4 +1,6 @@
-﻿  Shot.cpp
-C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\shot\Shot.cpp(78,21): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
-C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\shot\Shot.cpp(94,18): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+﻿  Camera.cpp
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(34,20): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(39,20): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(44,20): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\src\src\Camera\Camera.cpp(49,20): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
   shooting3D.vcxproj -> C:\Users\2409425\Documents\GitHub\Git_teisyutu\エッグランチャー2\エッグランチャー\x64\Debug\shooting3D.exe

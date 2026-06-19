@@ -144,8 +144,9 @@ VECTOR Shot::GetCenter()
     return res;
 }
 
-void Shot::HitCalc()
+VECTOR Shot::HitCalc()
 {
     //¶‘¶ƒtƒ‰ƒO‚ğÁ‚·
     m_isActive = false;
+    return m_speed;
 }

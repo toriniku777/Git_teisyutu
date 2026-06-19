@@ -5,14 +5,27 @@ class Enemy
 {
 private:
 
+	// プレイヤーの状態を表す列挙型
+	enum tagChikinState {
+		CKNSTATE_NORMAL,		// 待機・移動状態
+		CKNSTATE_HIT,		// ヒット状態
+		CKNSTATE_FLAY,
+
+		PLSTATE_NUM			// 状態の総数
+	};
+
 	// 敵の情報をまとめた構造体
 	VECTOR m_pos;			// 座標
 	VECTOR m_speed;			// 移動速度
 	VECTOR m_rot;
 	VECTOR m_scale;
+	tagChikinState m_state;	// 現在の状態
 	float m_radius;			// 物体の半径
 	int m_hndl;				// モデルハンドル
 	bool m_isActive;		// 生存フラグ
+	float m_jump;
+	float m_gravity;
+	bool m_groundtouch;
 
 public:
 	//コンストラクタ・デストラクタ
@@ -56,5 +69,5 @@ public:
 	VECTOR GetCenter();
 
 	//ヒット後の処理
-	void HitCalc();
+	void HitCalc(VECTOR shotspeed);
 };
