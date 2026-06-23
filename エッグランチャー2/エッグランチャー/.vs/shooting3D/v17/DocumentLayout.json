@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Collision\\CollisionManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\EnemyManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Collision\\CollisionManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Collision\\CollisionManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\EnemyManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\SceneManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\player\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Camera\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,32 +59,12 @@
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\shot\\Shot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\scene\\SceneManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\EnemyManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Collision\\collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Sistem\\SoundManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Sistem\\SoundManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Collision\\CollisionManeger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -71,20 +79,12 @@
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Controll\\InputPad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\player\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Input\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\lib\\Input\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|solutionrelative:src\\src\\Enemy\\EnemyManeger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41729856-D57B-4D92-A376-701AE5DB9BE5}|shooting3D.vcxproj|C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\BackGround\\BackGround.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -164,84 +164,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp",
-              "RelativeDocumentMoniker": "src\\src\\Enemy\\Enemy.cpp",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp",
-              "RelativeToolTip": "src\\src\\Enemy\\Enemy.cpp",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-28T08:33:16.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Shot.cpp",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp",
-              "RelativeDocumentMoniker": "src\\src\\shot\\Shot.cpp",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp",
-              "RelativeToolTip": "src\\src\\shot\\Shot.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-25T01:15:20.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Shot.h",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.h",
-              "RelativeDocumentMoniker": "src\\src\\shot\\Shot.h",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.h",
-              "RelativeToolTip": "src\\src\\shot\\Shot.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-25T01:15:48.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Camera.cpp",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp",
-              "RelativeDocumentMoniker": "src\\src\\Camera\\Camera.cpp",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp",
-              "RelativeToolTip": "src\\src\\Camera\\Camera.cpp",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAEEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:05.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CollisionManeger.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp",
               "RelativeDocumentMoniker": "src\\src\\Collision\\CollisionManeger.cpp",
               "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.cpp",
               "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.cpp",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAAMcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-04T03:08:37.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "player.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.cpp",
               "RelativeDocumentMoniker": "src\\src\\player\\player.cpp",
               "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.cpp",
               "RelativeToolTip": "src\\src\\player\\player.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:11.593Z"
+              "WhenOpened": "2025-11-24T14:32:11.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayScene.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp",
+              "RelativeDocumentMoniker": "src\\src\\scene\\PlayScene.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp",
+              "RelativeToolTip": "src\\src\\scene\\PlayScene.cpp",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAqwHYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-24T14:32:13.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SceneManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\scene\\SceneManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp",
+              "RelativeToolTip": "src\\src\\scene\\SceneManeger.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T02:50:26.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\Enemy.h",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h",
+              "RelativeToolTip": "src\\src\\Enemy\\Enemy.h",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-28T09:14:30.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "EnemyManeger.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\EnemyManeger.h",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h",
+              "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-28T08:34:06.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollisionManeger.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h",
+              "RelativeDocumentMoniker": "src\\src\\Collision\\CollisionManeger.h",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h",
+              "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T03:08:40.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.cpp",
+              "RelativeToolTip": "src\\src\\Enemy\\Enemy.cpp",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAHcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-28T08:33:16.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "player.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h",
+              "RelativeDocumentMoniker": "src\\src\\player\\player.h",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h",
+              "RelativeToolTip": "src\\src\\player\\player.h",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwFIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-24T14:32:12.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyManeger.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Enemy\\EnemyManeger.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp",
+              "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAGYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-28T08:33:21.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ShotManeger.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\ShotManeger.cpp",
               "RelativeDocumentMoniker": "src\\src\\shot\\ShotManeger.cpp",
@@ -253,55 +310,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayScene.cpp",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp",
-              "RelativeDocumentMoniker": "src\\src\\scene\\PlayScene.cpp",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\PlayScene.cpp",
-              "RelativeToolTip": "src\\src\\scene\\PlayScene.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:13.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SceneManeger.cpp",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp",
-              "RelativeDocumentMoniker": "src\\src\\scene\\SceneManeger.cpp",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\scene\\SceneManeger.cpp",
-              "RelativeToolTip": "src\\src\\scene\\SceneManeger.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T02:50:26.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h",
-              "RelativeDocumentMoniker": "src\\src\\Enemy\\Enemy.h",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\Enemy.h",
-              "RelativeToolTip": "src\\src\\Enemy\\Enemy.h",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-28T09:14:30.064Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "EnemyManeger.h",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h",
-              "RelativeDocumentMoniker": "src\\src\\Enemy\\EnemyManeger.h",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.h",
-              "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp",
+              "RelativeDocumentMoniker": "src\\src\\Camera\\Camera.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Camera\\Camera.cpp",
+              "RelativeToolTip": "src\\src\\Camera\\Camera.cpp",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-24T14:32:05.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Shot.h",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.h",
+              "RelativeDocumentMoniker": "src\\src\\shot\\Shot.h",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.h",
+              "RelativeToolTip": "src\\src\\shot\\Shot.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-28T08:34:06.374Z"
+              "WhenOpened": "2025-11-25T01:15:48.604Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Shot.cpp",
+              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp",
+              "RelativeDocumentMoniker": "src\\src\\shot\\Shot.cpp",
+              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\shot\\Shot.cpp",
+              "RelativeToolTip": "src\\src\\shot\\Shot.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-25T01:15:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "collision.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Collision\\collision.cpp",
               "RelativeDocumentMoniker": "src\\lib\\Collision\\collision.cpp",
@@ -313,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "SoundManeger.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Sistem\\SoundManeger.cpp",
               "RelativeDocumentMoniker": "src\\src\\Sistem\\SoundManeger.cpp",
@@ -325,19 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CollisionManeger.h",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h",
-              "RelativeDocumentMoniker": "src\\src\\Collision\\CollisionManeger.h",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Collision\\CollisionManeger.h",
-              "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-04T03:08:40.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "InputPad.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.cpp",
               "RelativeDocumentMoniker": "src\\lib\\Controll\\InputPad.cpp",
@@ -349,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "InputPad.h",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Controll\\InputPad.h",
               "RelativeDocumentMoniker": "src\\lib\\Controll\\InputPad.h",
@@ -373,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "input.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.cpp",
               "RelativeDocumentMoniker": "src\\lib\\Input\\input.cpp",
@@ -385,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "input.h",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\lib\\Input\\input.h",
               "RelativeDocumentMoniker": "src\\lib\\Input\\input.h",
@@ -397,19 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "player.h",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h",
-              "RelativeDocumentMoniker": "src\\src\\player\\player.h",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\player\\player.h",
-              "RelativeToolTip": "src\\src\\player\\player.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-24T14:32:12.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\main.cpp",
               "RelativeDocumentMoniker": "src\\main.cpp",
@@ -490,18 +511,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-24T14:32:08.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EnemyManeger.cpp",
-              "DocumentMoniker": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp",
-              "RelativeDocumentMoniker": "src\\src\\Enemy\\EnemyManeger.cpp",
-              "ToolTip": "C:\\Users\\2409425\\Documents\\GitHub\\Git_teisyutu\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC2\\\u30A8\u30C3\u30B0\u30E9\u30F3\u30C1\u30E3\u30FC\\src\\src\\Enemy\\EnemyManeger.cpp",
-              "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.cpp",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-28T08:33:21.795Z"
             },
             {
               "$type": "Document",

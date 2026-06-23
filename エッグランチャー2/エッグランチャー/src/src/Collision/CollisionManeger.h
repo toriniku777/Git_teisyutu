@@ -1,5 +1,6 @@
 #pragma once
 #include "../Enemy/EnemyManeger.h"
+#include "../Enemy/Enemy.h"
 #include "../shot/ShotManeger.h"
 #include "../player/player.h"
 #include "../BackGround/BackGround.h"
@@ -16,5 +17,5 @@ public:
 
 	static void CheckHitPlayerToField(Player& player, BackGround& field);
 
-
+	static void CheckHitEnemyToField(EnemyManeger& enemy, BackGround& field);
 };

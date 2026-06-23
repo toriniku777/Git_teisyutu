@@ -137,3 +137,80 @@ void CollisionManeger::CheckHitPlayerToField(Player& player, BackGround& field)
 	}
 	
  }
+
+void CollisionManeger::CheckHitEnemyToField(EnemyManeger& enemy, BackGround& field)
+{
+	const int ITERATION = 3;//繰り返し回数
+
+
+	for (int objectID = 0; objectID < OBJECT_NUM; objectID++)
+	{
+		//敵の数だけループ
+		for (int enemyID = 0; enemyID < ENEMY_NUM; enemyID++)
+		{
+			if (SKY == 1)continue;
+
+			//敵１人の情報を取得し、生存確認
+			Enemy& oneEnemy = enemy.GetEnemy(enemyID);
+			if (oneEnemy.isActive() == false) continue;
+
+			//それぞれの座標と半径を取得
+			VECTOR enemyPos = oneEnemy.GetCenter();
+			float enemyRadius = oneEnemy.GetRadius();
+
+
+			for (int iter = 0; iter < ITERATION; ++iter)
+			{
+				VECTOR e_pos = oneEnemy.GetCenter();
+				VECTOR out = { 0.0f };
+				MV1_COLL_RESULT_POLY_DIM res;		//当たり判定が格納される構造体
+				res = MV1CollCheck_Sphere(field.GetHndl(objectID), -1, e_pos, enemyRadius);
+
+				if (res.HitNum == 0)
+				{
+					MV1CollResultPolyDimTerminate(res);
+					break;
+				}
+
+				float maxLen = 0.0f;
+				VECTOR bestPush = { 0.0f,0.0f,0.0f };
+
+
+				//最も深く当たっているポリゴンに基づいて押し戻し処理
+				for (int i = 0; i < res.HitNum; ++i)
+				{
+					VECTOR Norm = res.Dim[i].Normal;
+
+					//ヒットしたポリゴンとヒットした物体のめり込んだ距離を求める
+					VECTOR sub = VSub(res.Dim[i].HitPosition, e_pos);
+					float len = VSize(sub);
+					len = enemyRadius - len;
+
+					if (len <= 0.0f)continue;
+					//一番深いものだけ選ぶ
+					if (len > maxLen)
+					{
+						maxLen = len;
+						bestPush = VScale(Norm, len);
+					}
+
+				}
+				//めり込んだ距離だけ外に押し出す　押し出す方向は法線の方向
+				enemyPos = VAdd(enemyPos, bestPush);
+				enemy.SetPosition(enemyPos);
+
+				MV1CollResultPolyDimTerminate(res);
+
+				//ほぼ押し出し終わったら終了
+				if (maxLen < 0.001f)break;
+				//player.SetPosition(VAdd(player.GetPosition(), out));
+
+			}
+
+
+		}
+	}
+
+}
+
+

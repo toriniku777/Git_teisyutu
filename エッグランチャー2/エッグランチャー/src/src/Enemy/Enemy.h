@@ -63,6 +63,8 @@ public:
 	//座標取得
 	VECTOR GetPosition() { return m_pos; }
 
+	void SetPosition(VECTOR pos) { m_pos = pos; }
+
 	//当たり判定の半径サイズを取得
 	float GetRadius() { return m_radius; }
 
