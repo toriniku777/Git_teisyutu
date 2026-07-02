@@ -9,6 +9,7 @@ enum {
 	SAKU1,
 	SAKU2,
 	SAKUSUKE1,
+	SAKUSUKE2,
 	
 
 	OBJECT_NUM

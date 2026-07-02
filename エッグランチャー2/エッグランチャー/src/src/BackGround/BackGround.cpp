@@ -7,6 +7,7 @@ static const char* BackGround_MODEL_PATH[] =
 "Data/Model/field/sibahuu.x",
 "Data/Model/field/saku.x",
 "Data/Model/field/saku.x",
+"Data/Model/field/sakusuke.x",
 "Data/Model/field/sakusuke.x"
 };
 
@@ -41,20 +42,20 @@ void BackGround::Load()
     VECTOR scale[OBJECT_NUM] =
     {
         //天球、芝生、柵、柵
-       {100.0f,100.0f,100.0f},{1500 ,1.0f,1500.0f },{1.0f,1.0f,1.0f },{1.0f,1.0f,1.0f },{1.0f,1.0f,1.0f }
+       {100.0f,100.0f,100.0f},{1500 ,1.0f,1500.0f },{1.0f,1.0f,1.0f },{1.0f,1.0f,1.0f },{1.0f,1.0f,1.0f },{1.0f,1.0f,1.0f }
     };
 
     VECTOR posision[OBJECT_NUM] =
     {
         //天球、芝生、柵、柵
-       {0.0f,0.0f,0.0f},{0.0f,-2.0f,0.0f },{0.0f,0.0f,2000.0f },{1200.0f,0.0f,2000.0f },{1200.0f,0.0f,2000.0f }
+       {0.0f,0.0f,0.0f},{0.0f,-2.0f,0.0f },{0.0f,0.0f,2000.0f },{1200.0f,0.0f,2000.0f },{0.0f,0.0f,2000.0f },{1200.0f,0.0f,2000.0f }
 
     };
 
     VECTOR rotate[OBJECT_NUM] =
     {
         //天球、芝生、柵、柵
-       {0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,1.57f,0.0f },{0.0f,1.57f,0.0f },{0.0f,1.57f,0.0f }
+       {0.0f,0.0f,0.0f},{0.0f,0.0f,0.0f},{0.0f,1.57f,0.0f },{0.0f,1.57f,0.0f },{0.0f,1.57f,0.0f },{0.0f,1.57f,0.0f }
 
     };
 
@@ -110,7 +111,7 @@ void BackGround::Draw()
 {
     for (int i = 0; i < OBJECT_NUM; i++)
     {
-        if (i == 4) { continue; }
+        if (i == 4|| i == 5) { continue; }
         MV1DrawModel(m_hndl[i]);
     }
 }
