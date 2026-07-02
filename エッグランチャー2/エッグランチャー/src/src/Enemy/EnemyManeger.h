@@ -40,4 +40,7 @@ public:
 	//’e1”­•ª‚Ìî•ñæ“¾
 		//@id:”z—ñ”Ô†
 	Enemy& GetEnemy(int id) { return m_enemy[id]; }
+
+
+
 };

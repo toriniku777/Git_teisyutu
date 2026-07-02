@@ -4,11 +4,12 @@
 
 
 enum {
-	//GROUND,
 	SKY,
 	SIBAHU,
 	SAKU1,
 	SAKU2,
+	SAKUSUKE1,
+	
 
 	OBJECT_NUM
 };
@@ -22,7 +23,6 @@ private:
 	float m_skyRotY=0;
 	float m_Maxtime;
 	float m_Timer;
-	VECTOR m_rot;
 
 public:
 

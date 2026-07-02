@@ -197,8 +197,8 @@ void CollisionManeger::CheckHitEnemyToField(EnemyManeger& enemy, BackGround& fie
 				}
 				//めり込んだ距離だけ外に押し出す　押し出す方向は法線の方向
 				enemyPos = VAdd(enemyPos, bestPush);
-				enemy.SetPosition(enemyPos);
-
+				//enemy.SetEnemyPos(oneEnemy);
+				oneEnemy.SetPosition(enemyPos);
 				MV1CollResultPolyDimTerminate(res);
 
 				//ほぼ押し出し終わったら終了

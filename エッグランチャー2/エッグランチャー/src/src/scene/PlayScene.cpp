@@ -133,6 +133,8 @@ void PlayScene::Step()
 	CollisionManeger::CheckHitShotToEnemy(m_shot, m_enemy);
 	CollisionManeger::CheckHitPlayerToEnemy(m_player, m_enemy);
 	CollisionManeger::CheckHitPlayerToField(m_player, m_field);
+	CollisionManeger::CheckHitEnemyToField(m_enemy,m_field);
+
 	//プレイヤーの生存フラグが消えたらゲーム終了へ
 	if (m_player.isActive() == false)
 	{
