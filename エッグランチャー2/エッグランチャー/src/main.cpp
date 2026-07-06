@@ -15,6 +15,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 {
 	// ウィンドウモードで起動
 	ChangeWindowMode(TRUE);
+
 	// ウィンドウのサイズを変更
 	SetGraphMode(1280, 720, 32);
 
@@ -27,6 +28,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	SetUseZBuffer3D(TRUE);
 	SetWriteZBuffer3D(TRUE);
 	SceneManeger scenemaneger;
+
 	// インスタンス作成と初期化
 	SceneManeger Loop();
 
