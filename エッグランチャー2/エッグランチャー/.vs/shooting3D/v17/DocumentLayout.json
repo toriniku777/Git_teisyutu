@@ -184,8 +184,7 @@
               "RelativeToolTip": "src\\src\\Sistem\\SoundManeger.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-07-06T02:37:19.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T02:37:19.741Z"
             },
             {
               "$type": "Document",
@@ -197,8 +196,7 @@
               "RelativeToolTip": "src\\src\\shot\\ShotManeger.h",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-07-06T02:36:17.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T02:36:17.897Z"
             },
             {
               "$type": "Document",
@@ -210,8 +208,7 @@
               "RelativeToolTip": "src\\src\\Enemy\\Enemy.h",
               "ViewState": "AgIAAC4AAAAAAAAAAADwv1gAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-28T09:14:30.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T09:14:30.064Z"
             },
             {
               "$type": "Document",
@@ -223,8 +220,7 @@
               "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-28T08:34:06.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:34:06.374Z"
             },
             {
               "$type": "Document",
@@ -236,8 +232,7 @@
               "RelativeToolTip": "src\\src\\player\\player.h",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-24T14:32:12.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:12.864Z"
             },
             {
               "$type": "Document",
@@ -249,8 +244,7 @@
               "RelativeToolTip": "src\\src\\scene\\PlayScene.cpp",
               "ViewState": "AgIAAH4AAAAAAAAAAAAAAIwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:13.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:13.862Z"
             },
             {
               "$type": "Document",
@@ -262,8 +256,7 @@
               "RelativeToolTip": "src\\src\\scene\\PlayScene.h",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-24T14:32:14.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:14.794Z"
             },
             {
               "$type": "Document",
@@ -275,8 +268,7 @@
               "RelativeToolTip": "src\\src\\scene\\SceneManeger.cpp",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAGkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T02:50:26.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:50:26.365Z"
             },
             {
               "$type": "Document",
@@ -288,8 +280,7 @@
               "RelativeToolTip": "src\\src\\scene\\SceneManeger.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-08T06:01:22.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T06:01:22.124Z"
             },
             {
               "$type": "Document",
@@ -301,8 +292,7 @@
               "RelativeToolTip": "src\\src\\shot\\Shot.cpp",
               "ViewState": "AgIAAHgAAAAAAAAAAAAAAJwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-25T01:15:20.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:15:20.748Z"
             },
             {
               "$type": "Document",
@@ -314,8 +304,7 @@
               "RelativeToolTip": "src\\src\\shot\\Shot.h",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-25T01:15:48.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:15:48.604Z"
             },
             {
               "$type": "Document",
@@ -327,8 +316,7 @@
               "RelativeToolTip": "src\\src\\BackGround\\BackGround.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-26T00:54:50.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T00:54:50.709Z"
             },
             {
               "$type": "Document",
@@ -353,8 +341,7 @@
               "RelativeToolTip": "src\\src\\player\\player.cpp",
               "ViewState": "AgIAAMAAAAAAAAAAAAAAAN8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:11.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:11.593Z"
             },
             {
               "$type": "Document",
@@ -366,8 +353,7 @@
               "RelativeToolTip": "src\\src\\Sistem\\SoundManeger.cpp",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAFcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T05:45:14.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T05:45:14.984Z"
             },
             {
               "$type": "Document",
@@ -379,8 +365,7 @@
               "RelativeToolTip": "src\\src\\Enemy\\EnemyManeger.cpp",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-28T08:33:21.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:33:21.795Z"
             },
             {
               "$type": "Document",
@@ -392,8 +377,7 @@
               "RelativeToolTip": "src\\src\\shot\\ShotManeger.cpp",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAF8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-25T01:18:18.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:18:18.027Z"
             },
             {
               "$type": "Document",
@@ -405,8 +389,7 @@
               "RelativeToolTip": "src\\src\\Enemy\\Enemy.cpp",
               "ViewState": "AgIAAMkAAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-28T08:33:16.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:33:16.948Z"
             },
             {
               "$type": "Document",
@@ -418,8 +401,7 @@
               "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-04T03:08:40.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:08:40.149Z"
             },
             {
               "$type": "Document",
@@ -431,8 +413,7 @@
               "RelativeToolTip": "src\\src\\Collision\\CollisionManeger.cpp",
               "ViewState": "AgIAAK4AAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T03:08:37.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:08:37.766Z"
             },
             {
               "$type": "Document",
@@ -444,8 +425,7 @@
               "RelativeToolTip": "src\\src\\Camera\\DebugCamera.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T01:19:21.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T01:19:21.992Z"
             },
             {
               "$type": "Document",
@@ -457,8 +437,7 @@
               "RelativeToolTip": "src\\src\\Camera\\DebugCamera.cpp",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-10T10:33:40.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:33:40.855Z"
             },
             {
               "$type": "Document",
@@ -470,8 +449,7 @@
               "RelativeToolTip": "src\\src\\Camera\\CameraManeger.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-24T14:32:08.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:08.208Z"
             },
             {
               "$type": "Document",
@@ -483,8 +461,7 @@
               "RelativeToolTip": "src\\src\\Camera\\CameraManeger.cpp",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:07.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:07.048Z"
             },
             {
               "$type": "Document",
@@ -496,8 +473,7 @@
               "RelativeToolTip": "src\\src\\Camera\\Camera.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-24T14:32:06.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:06.284Z"
             },
             {
               "$type": "Document",
@@ -509,8 +485,7 @@
               "RelativeToolTip": "src\\src\\Camera\\Camera.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T14:32:05.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:32:05.182Z"
             },
             {
               "$type": "Document",
@@ -522,8 +497,7 @@
               "RelativeToolTip": "src\\src\\BackGround\\kari.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T08:55:41.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T08:55:41.974Z"
             },
             {
               "$type": "Document",
@@ -535,8 +509,7 @@
               "RelativeToolTip": "src\\src\\BackGround\\BackGround.cpp",
               "ViewState": "AgIAAE4AAAAAAAAAAAAAAHQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-26T00:54:35.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T00:54:35.185Z"
             },
             {
               "$type": "Document",
@@ -548,8 +521,7 @@
               "RelativeToolTip": "src\\lib\\Input\\input.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T03:28:46.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:28:46.086Z"
             },
             {
               "$type": "Document",
@@ -561,8 +533,7 @@
               "RelativeToolTip": "src\\lib\\FPS\\fps.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-21T05:20:08.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T05:20:08.014Z"
             },
             {
               "$type": "Document",
@@ -574,8 +545,7 @@
               "RelativeToolTip": "src\\lib\\FPS\\fps.cpp",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T02:50:03.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:50:03.169Z"
             },
             {
               "$type": "Document",
@@ -587,8 +557,7 @@
               "RelativeToolTip": "src\\lib\\Fade\\fade.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-04T03:37:06.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:37:06.125Z"
             },
             {
               "$type": "Document",
@@ -600,8 +569,7 @@
               "RelativeToolTip": "src\\lib\\Fade\\fade.cpp",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T03:27:34.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:27:34.126Z"
             },
             {
               "$type": "Document",
@@ -613,8 +581,7 @@
               "RelativeToolTip": "src\\lib\\Controll\\InputPad.cpp",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAIMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-09T01:04:50.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T01:04:50.609Z"
             },
             {
               "$type": "Document",
@@ -626,8 +593,7 @@
               "RelativeToolTip": "src\\lib\\Collision\\collision.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-08T05:21:07.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T05:21:07.555Z"
             },
             {
               "$type": "Document",
@@ -639,8 +605,7 @@
               "RelativeToolTip": "src\\lib\\Collision\\collision.cpp",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T05:21:06.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T05:21:06.801Z"
             },
             {
               "$type": "Document",
