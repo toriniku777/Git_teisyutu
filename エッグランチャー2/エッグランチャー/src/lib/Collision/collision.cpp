@@ -75,6 +75,7 @@ bool Collision::CheckHitCircleToCircle(VECTOR circlePos1, int radius1,
 	else return false;
 }
 
+
 //---------------------------------
 // —§•û‘Ì“¯Žm‚Ì“–‚½‚è”»’è
 //---------------------------------
@@ -105,6 +106,7 @@ bool Collision::CheckHitBoxToBox(VECTOR pos1, VECTOR size1,
 	}
 	else return false;
 }
+
 
 //---------------------------------
 // ‹…“¯Žm‚Ì“–‚½‚è”»’è

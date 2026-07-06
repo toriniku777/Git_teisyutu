@@ -32,23 +32,30 @@ public:
 	Enemy();
 	~Enemy();
 
+
 	//初期化
 	void Init();
+
 
 	//データ関連のロード
 	void Load(int orginHndl);
 
+
 	//終了処理
 	void Exit();
+
 
 	//毎フレーム呼ぶ処理
 	void Step(VECTOR PlayerPos);
 
+
 	//データの更新
 	void Update();
 
+
 	//描画処理
 	void Draw();
+
 
 	//弾をリクエスト
 	//@pos:どこから発射するか
@@ -56,19 +63,25 @@ public:
 	//@return:生成成功か失敗か
 	bool Request(const VECTOR& pos, const VECTOR& speed);
 
+
 	//生存情報取得
 	bool isActive() { return m_isActive; }
+
+
 	void SetAction(bool active) { m_isActive = active; }
+
 
 	//座標取得
 	VECTOR GetPosition() { return m_pos; }
 
 	void SetPosition(VECTOR pos) { m_pos = pos; }
 
+
 	//当たり判定の半径サイズを取得
 	float GetRadius() { return m_radius; }
 
 	VECTOR GetCenter();
+
 
 	//ヒット後の処理
 	void HitCalc(VECTOR shotspeed);

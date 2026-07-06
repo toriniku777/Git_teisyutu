@@ -22,8 +22,12 @@ public:
 	//コンストラクタ
 	SceneManeger();
 	~SceneManeger();
+
+
 	//実行
 	int Loop();
+
+
 	//描画
 	void Draw();
 };

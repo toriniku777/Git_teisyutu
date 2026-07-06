@@ -5,6 +5,7 @@ static const VECTOR ZERO = { 0.0f,0.0f,0.0f };
 
 //カメラの回転速度
 static const float ROT_SPEED = 0.1f;
+
 //カメラの速さ
 static const float MOVE_SPEED = 5.0f;
 
@@ -16,8 +17,8 @@ DebugCamera::DebugCamera()
 {
 	m_pos = ZERO;
 	m_rot = ZERO;
-	
 }
+
 
 //--------------------
 //初期化
@@ -76,9 +77,9 @@ void DebugCamera::Step()
 		//計算結果をカメラの現在の座標に足す
 		m_pos = VAdd(m_pos, move);
 	}
-	
 	//-----------------------------------
 }
+
 
 //カメラの更新
 void DebugCamera::Update()

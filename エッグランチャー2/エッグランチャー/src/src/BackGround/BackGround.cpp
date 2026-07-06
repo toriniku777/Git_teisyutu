@@ -14,7 +14,6 @@ static const char* BackGround_MODEL_PATH[] =
 //-------------------------------
 
 
-
 //---------------------
 //初期化
 //---------------------
@@ -25,6 +24,7 @@ void BackGround::Init()
         m_hndl[i] = -1;
     }
 }
+
 
 //---------------------
 //データ関連のロード
@@ -68,6 +68,7 @@ void BackGround::Load()
     }
 }
 
+
 //---------------------
 //終了処理
 //---------------------
@@ -80,10 +81,9 @@ void BackGround::Exit()
             MV1DeleteModel(m_hndl[i]);
             m_hndl[i] = -1;
         }
-      
     }
-
 }
+
 
 //---------------------
 //毎フレーム呼ぶ処理
@@ -94,6 +94,7 @@ void BackGround::Step()
     m_skyRotY += 0.0001;
 }
 
+
 //---------------------
 //更新したデータを反映させる
 //---------------------
@@ -101,8 +102,8 @@ void BackGround::Update()
 {
     VECTOR skyrot = { 0.0f,m_skyRotY ,0.0f};
     MV1SetRotationXYZ(m_hndl[SKY], skyrot);
-   
 }
+
 
 //---------------------
 //描画処理

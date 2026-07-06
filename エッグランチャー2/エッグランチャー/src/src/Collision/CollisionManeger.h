@@ -12,10 +12,13 @@ public:
 	static void CheckHitShotToEnemy(ShotManeger& shot, 
 										EnemyManeger& enemy);
 
+
 	static void CheckHitPlayerToEnemy(Player& player,
 		EnemyManeger& enemy);
 
+
 	static void CheckHitPlayerToField(Player& player, BackGround& field);
+
 
 	static void CheckHitEnemyToField(EnemyManeger& enemy, BackGround& field);
 };

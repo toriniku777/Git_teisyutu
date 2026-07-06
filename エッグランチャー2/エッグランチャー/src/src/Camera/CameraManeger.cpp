@@ -11,6 +11,7 @@ CameraManeger::CameraManeger()
 	m_ID = ID_PLAY;
 }
 
+
 //--------------------
 //初期化
 //--------------------
@@ -22,21 +23,23 @@ void CameraManeger::Init()
 	SetCameraNearFar(1.0f, 50000.0f);
 }
 
+
 void CameraManeger::Step(VECTOR forcus, float rotY)
 {
-	
 	switch (m_ID)
 	{
 		//ゲームのメインカメラ
 	case ID_PLAY:
 		m_play.Step(forcus, rotY);
 		break;
+
 		//デバック用のカメラ
 	case ID_DEBUG:
 		m_debug.Step();
 		break;
 	}
 }
+
 
 void CameraManeger::Update()
 {
@@ -46,6 +49,7 @@ void CameraManeger::Update()
 	case ID_PLAY:
 		m_play.Update();
 		break;
+
 		//デバック用のカメラ
 	case ID_DEBUG:
 		m_debug.Update();

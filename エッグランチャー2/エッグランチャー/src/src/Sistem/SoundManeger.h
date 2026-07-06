@@ -15,18 +15,23 @@ public:
 		SOUND_NUM		
 	};
 
+
 private: 
 	static vector<int>m_hndl;//音楽ハンドル
+
 
 public:
 	//初期化
 	static void Init();
 
+
 	//データ関連のロード
 	static void Load();
 
+
 	//終了処理
 	static void Exit();
+
 
 	//音楽再生
 	//@id:再生する音楽
@@ -37,11 +42,15 @@ public:
 	static bool Play(tagID id,
 		int type = DX_PLAYTYPE_BACK, bool isStart = true);
 
+
 	//音楽停止
 	static void Stop(tagID id);
 
+
 	//全音楽停止
 	static void AllStop();
+
+
 	//音楽を再生中か
 	static bool IsPlay(tagID id);
 };

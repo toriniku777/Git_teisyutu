@@ -13,6 +13,8 @@ PlayScene::PlayScene()
 	//最初はデータ初期化
 	m_state = INIT();
 }
+
+
 //--------------------
 //デストラクタ
 //--------------------
@@ -21,6 +23,7 @@ PlayScene::~PlayScene()
 	//安全のためにデータ破棄処理呼び出し
 	Exit();
 }
+
 
 //--------------------
 //初期化
@@ -42,6 +45,7 @@ int PlayScene::Loop()
 	case PlayScene::LOAD:
 		Load();
 		Fade::RequestFadeIn();
+
 		//ゲーム本編のBGMを鳴らす
 		SoundManeger::Play(SoundManeger::BGM_GAME,DX_PLAYTYPE_LOOP);
 		m_state = PlayScene::STARTWAIT;//次へ進む
@@ -62,6 +66,7 @@ int PlayScene::Loop()
 
 	case PlayScene::ENDWAIT:
 		Fade::RequestFadeOut();
+
 		if (Fade::IsEndFadeOut())
 		{
 			m_state = PlayScene::END;
@@ -70,6 +75,7 @@ int PlayScene::Loop()
 
 	case PlayScene::END:
 		Exit();
+
 		//すべての音楽を止めて次へ
 		SoundManeger::AllStop();
 		Fade::RequestFadeIn();
@@ -82,24 +88,25 @@ int PlayScene::Loop()
 	return result;
 }
 
+
 void PlayScene::Draw()
 {
 	m_field.Draw();
-
 	m_player.Draw();
 	m_shot.Draw();
 	m_enemy.Draw();
 }
 
+
 void PlayScene::Init()
 {
-
 	m_player.Init();
 	m_shot.Init();
 	m_camera.Init();
 	m_enemy.Init();
 	m_field.Init();
 }
+
 
 void PlayScene::Load()
 {
@@ -109,12 +116,12 @@ void PlayScene::Load()
 	m_field.Load();
 }
 
+
 void PlayScene::Step()
 {
 	//各種計算処理を実行
 	m_player.SetCameraRot(m_camera.GetCameraRot());
 	m_player.Step(m_shot);
-
 	m_shot.Step();
 	m_enemy.Step(m_player.GetPosition());
 	m_field.Step();
@@ -124,6 +131,7 @@ void PlayScene::Step()
 	{
 		m_camera.ChangeCamera(CameraManeger::ID_DEBUG);
 	}
+
 	if (CheckHitKey(KEY_INPUT_V))
 	{
 		m_camera.ChangeCamera(CameraManeger::ID_PLAY);

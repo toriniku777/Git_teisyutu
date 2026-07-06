@@ -16,16 +16,20 @@ public:
 	//コンストラクタ
 	PlayCamera();
 
+
 	//初期化
 	void Init();
+
 	
 	//カメラの座標計算
 	//@foucus:プレイヤーの座標
 	//@rotY:プレイヤーの角度
 	void Step(VECTOR forcus, float rotY);
 
+
 	//カメラの更新
 	void Update();
+
 
 	//追加
 	//カメラの回転率を渡す

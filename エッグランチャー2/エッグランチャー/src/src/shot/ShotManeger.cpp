@@ -37,8 +37,10 @@ void ShotManeger::Load()
     {
         m_playerShot[i].Load(hndl);
     }
+
     MV1DeleteModel(hndl);
 }
+
 
 //---------------------
 //終了処理
@@ -49,8 +51,8 @@ void ShotManeger::Exit()
     {
         m_playerShot[i].Exit();
     }
-
 }
+
 
 //---------------------
 //毎フレーム呼ぶ処理
@@ -61,8 +63,8 @@ void ShotManeger::Step()
     {
         m_playerShot[i].Step();
     }
-
 }
+
 
 //---------------------
 //更新したデータを反映させる
@@ -75,6 +77,7 @@ void ShotManeger::Update()
     }
 }
 
+
 //---------------------
 //描画処理
 //---------------------
@@ -86,11 +89,11 @@ void ShotManeger::Draw()
     }
 }
 
+
 void ShotManeger::RequestPlayerShot(const VECTOR& pos, const VECTOR& speed)
 {
     for (int i = 0; i < PL_SHOT_NUM; i++)
     {
-        
         if (m_playerShot[i].Request(pos, speed))
         {
             SoundManeger::Play(SoundManeger::SE_PLSHOT);

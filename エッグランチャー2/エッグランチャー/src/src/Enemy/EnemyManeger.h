@@ -19,28 +19,32 @@ public:
 	//初期化
 	void Init();
 
+
 	//データ関連のロード
 	void Load();
+
 
 	//終了処理
 	void Exit();
 
+
 	//毎フレーム呼ぶ処理
 	void Step(VECTOR PlayerPos);
+
 
 	//カメラの更新
 	void Update();
 
+
 	//描画処理
 	void Draw();
+
 
 	//敵をリクエスト
 	void Request();
 
+
 	//弾1発分の情報取得
 		//@id:配列番号
 	Enemy& GetEnemy(int id) { return m_enemy[id]; }
-
-
-
 };

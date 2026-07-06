@@ -40,6 +40,7 @@ void EnemyManeger::Load()
     MV1DeleteModel(hndl);
 }
 
+
 //---------------------
 //終了処理
 //---------------------
@@ -49,8 +50,8 @@ void EnemyManeger::Exit()
     {
         m_enemy[i].Exit();
     }
-
 }
+
 
 //---------------------
 //毎フレーム呼ぶ処理
@@ -62,14 +63,16 @@ void EnemyManeger::Step(VECTOR PlayerPos)
         m_enemy[i].Step(PlayerPos);
         
     }
-    m_waitCount--;
-        if (m_waitCount <= 0)
-        {
-            Request();
-            m_waitCount = WAIT_TIME;
-        }
 
+    m_waitCount--;
+
+    if (m_waitCount <= 0)
+    {
+        Request();
+        m_waitCount = WAIT_TIME;
+    }
 }
+
 
 //---------------------
 //更新したデータを反映させる
@@ -82,6 +85,7 @@ void EnemyManeger::Update()
     }
 }
 
+
 //---------------------
 //描画処理
 //---------------------
@@ -92,6 +96,7 @@ void EnemyManeger::Draw()
         m_enemy[i].Draw();
     }
 }
+
 
 void EnemyManeger::Request()
 {

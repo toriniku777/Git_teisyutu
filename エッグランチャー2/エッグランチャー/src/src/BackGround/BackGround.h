@@ -25,24 +25,30 @@ private:
 	float m_Maxtime;
 	float m_Timer;
 
+
 public:
 
-	
 	int GetHndl(int i) { return m_hndl[i]; }
 
+
 	void Init();
+
 
 	//データ関連のロード
 	void Load();
 
+
 	//終了処理
 	void Exit();
+
 
 	//毎フレーム呼ぶ処理
 	void Step();
 
+
 	//カメラの更新
 	void Update();
+
 
 	//描画処理
 	void Draw();

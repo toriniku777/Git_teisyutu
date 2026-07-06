@@ -18,14 +18,15 @@ Shot::Shot()
     m_isActive = false;//最初は表示しない
 }
 
+
 //---------------------
 //デストラクタ
 //---------------------
 Shot::~Shot()
 {
-
     Exit();
 }
+
 
 //---------------------
 //初期化
@@ -50,6 +51,7 @@ void Shot::Load(int orginHndl)
     }
 }
 
+
 //---------------------
 //終了処理
 //---------------------
@@ -60,8 +62,8 @@ void Shot::Exit()
         MV1DeleteModel(m_hndl);
         m_hndl = -1;
     }
-
 }
+
 
 //---------------------
 //毎フレーム呼ぶ処理
@@ -94,6 +96,7 @@ void Shot::Step()
     m_eggRotX += 0.1;
 }
 
+
 //---------------------
 //更新したデータを反映させる
 //---------------------
@@ -104,6 +107,7 @@ void Shot::Update()
     VECTOR rot = { m_eggRotX ,0.0f ,0.0f };
     MV1SetRotationXYZ(m_hndl, rot);
 }
+
 
 //---------------------
 //描画処理
@@ -119,9 +123,9 @@ void Shot::Draw()
         DrawSphere3D(GetCenter(), m_radius, 16, GetColor(255, 0, 0),
             GetColor(255, 0, 0), FALSE);
 #endif // DEBUG
-
     }
 }
+
 
 bool Shot::Request(const VECTOR& pos, const VECTOR& speed)
 {
@@ -135,14 +139,15 @@ bool Shot::Request(const VECTOR& pos, const VECTOR& speed)
     return true;
 }
 
+
 VECTOR Shot::GetCenter()
 {
     //基本は物体の球の判定の位置
     VECTOR res = m_pos;
    
-
     return res;
 }
+
 
 VECTOR Shot::HitCalc()
 {

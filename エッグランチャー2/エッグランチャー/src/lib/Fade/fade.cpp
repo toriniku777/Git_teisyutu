@@ -14,6 +14,7 @@ enum tagFadeState
 	FADE_OUT_WAIT,		//フェードアウト後の真っ暗状態
 };
 
+
 //フェード処理用構造体
 typedef struct {
 	tagFadeState m_state;		//現在のフェード状況
@@ -22,6 +23,7 @@ typedef struct {
 }FADE_DATA;
 
 FADE_DATA g_fade;
+
 
 //---------------------------
 //フェード初期化
@@ -32,6 +34,7 @@ void Fade::InitFade()
 	g_fade.m_count = 0;
 	g_fade.m_fadeflg = false;
 }
+
 
 //---------------------------
 //フェード更新処理
@@ -65,6 +68,7 @@ void Fade::StepFade()
 		break;
 	}
 }
+
 
 //---------------------------
 //フェード用の画像描画
@@ -106,6 +110,7 @@ void Fade::RequestFadeIn()
 	g_fade.m_fadeflg = true;
 }
 
+
 //---------------------------
 //フェードアウトリクエスト
 //---------------------------
@@ -118,6 +123,7 @@ void Fade::RequestFadeOut()
 	g_fade.m_state = FADE_OUT;
 	g_fade.m_fadeflg = true;
 }
+
 
 //---------------------------
 //フェードインが終了したか
@@ -135,6 +141,7 @@ bool Fade::IsEndFadeIn()
 		return true;
 	}
 }
+
 
 bool Fade::IsEndFadeOut()
 {

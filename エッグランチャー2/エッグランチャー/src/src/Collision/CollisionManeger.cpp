@@ -33,12 +33,11 @@ void CollisionManeger::CheckHitShotToEnemy(ShotManeger& shot,
 			{
 				oneShot.HitCalc();
 				oneEnemy.HitCalc(oneShot.HitCalc());
-
 			}
 		}
-
 	}
 }
+
 
 void CollisionManeger::CheckHitPlayerToEnemy(Player& player,
 	EnemyManeger& enemy)
@@ -62,23 +61,23 @@ void CollisionManeger::CheckHitPlayerToEnemy(Player& player,
 		bool isHit = Collision::CheckHitSphereToSphere(
 			playerPos, playerRadius, enemyPos, enemyRadius
 		);
+
 		if (isHit == true)
 		{
 			player.HitCalc();
-			
-
 		}
 	}
 }
+
 
 void CollisionManeger::CheckHitPlayerToField(Player& player, BackGround& field)
 {
 	const int ITERATION = 3;//繰り返し回数
 	
-
 	for (int objectID = 0; objectID < OBJECT_NUM; objectID++)
 	{
 		if (SKY == 1)continue;
+
 		//それぞれの座標と半径を取得
 		VECTOR playerPos = player.GetPosition();
 		float playerRadius = player.GetRadius();
@@ -88,7 +87,9 @@ void CollisionManeger::CheckHitPlayerToField(Player& player, BackGround& field)
 		{
 			VECTOR p_pos = player.GetCenter();
 			VECTOR out = { 0.0f };
+
 			MV1_COLL_RESULT_POLY_DIM res;		//当たり判定が格納される構造体
+
 			res = MV1CollCheck_Sphere(field.GetHndl(objectID), -1, p_pos, playerRadius);
 
 			if (res.HitNum == 0)
@@ -118,8 +119,8 @@ void CollisionManeger::CheckHitPlayerToField(Player& player, BackGround& field)
 						maxLen = len;
 						bestPush = VScale(Norm, len);
 					}
-					
 				}
+
 				//めり込んだ距離だけ外に押し出す　押し出す方向は法線の方向
 				playerPos = VAdd(playerPos, bestPush);
 				player.SetPosition(playerPos);
@@ -131,17 +132,13 @@ void CollisionManeger::CheckHitPlayerToField(Player& player, BackGround& field)
 				//player.SetPosition(VAdd(player.GetPosition(), out));
 				
 		}
-		
-		
-	
 	}
-	
  }
+
 
 void CollisionManeger::CheckHitEnemyToField(EnemyManeger& enemy, BackGround& field)
 {
 	const int ITERATION = 3;//繰り返し回数
-
 
 	for (int objectID = 0; objectID < OBJECT_NUM; objectID++)
 	{
@@ -158,12 +155,13 @@ void CollisionManeger::CheckHitEnemyToField(EnemyManeger& enemy, BackGround& fie
 			VECTOR enemyPos = oneEnemy.GetCenter();
 			float enemyRadius = oneEnemy.GetRadius();
 
-
 			for (int iter = 0; iter < ITERATION; ++iter)
 			{
 				VECTOR e_pos = oneEnemy.GetCenter();
 				VECTOR out = { 0.0f };
+
 				MV1_COLL_RESULT_POLY_DIM res;		//当たり判定が格納される構造体
+
 				res = MV1CollCheck_Sphere(field.GetHndl(objectID), -1, e_pos, enemyRadius);
 
 				if (res.HitNum == 0)
@@ -193,8 +191,8 @@ void CollisionManeger::CheckHitEnemyToField(EnemyManeger& enemy, BackGround& fie
 						maxLen = len;
 						bestPush = VScale(Norm, len);
 					}
-
 				}
+
 				//めり込んだ距離だけ外に押し出す　押し出す方向は法線の方向
 				enemyPos = VAdd(enemyPos, bestPush);
 				//enemy.SetEnemyPos(oneEnemy);
@@ -206,11 +204,8 @@ void CollisionManeger::CheckHitEnemyToField(EnemyManeger& enemy, BackGround& fie
 				//player.SetPosition(VAdd(player.GetPosition(), out));
 
 			}
-
-
 		}
 	}
-
 }
 
 

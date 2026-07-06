@@ -29,10 +29,12 @@ SceneManeger::SceneManeger()
 	}
 }
 
+
 SceneManeger::~SceneManeger()
 {
 	SoundManeger::Exit();
 }
+
 
 //--------------------
 //初期化
@@ -54,10 +56,8 @@ int SceneManeger::Loop()
 			{
 				m_sceneID = SceneManeger::GAME;//次へ進む
 			}
-			
 		}
-		
-		
+
 		break;
 
 	case SceneManeger::GAME:
@@ -65,7 +65,6 @@ int SceneManeger::Loop()
 		{
 			Fade::RequestFadeIn();
 				m_sceneID = SceneManeger::RESULT;//次へ進む
-		
 		}
 		
 		break;
@@ -80,11 +79,10 @@ int SceneManeger::Loop()
 		}
 		
 		break;
-
-
 	}
 	return res;
 }
+
 
 //--------------------
 //更新処理
@@ -106,5 +104,4 @@ void SceneManeger::Draw()
 		break;
 	}
 	Fps::PrintFps();
-
 }

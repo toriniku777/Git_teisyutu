@@ -32,14 +32,15 @@ Enemy::Enemy()
     Init();
 }
 
+
 //---------------------
 //デストラクタ
 //---------------------
 Enemy::~Enemy()
 {
-
     Exit();
 }
+
 
 //---------------------
 //初期化
@@ -71,6 +72,7 @@ void Enemy::Load(int orginHndl)
     }
 }
 
+
 //---------------------
 //終了処理
 //---------------------
@@ -81,8 +83,8 @@ void Enemy::Exit()
         MV1DeleteModel(m_hndl);
         m_hndl = -1;
     }
-
 }
+
 
 //---------------------
 //毎フレーム呼ぶ処理
@@ -112,8 +114,6 @@ void Enemy::Step(VECTOR PlayerPos)
         printfDx("y:%f\n", m_speed.y);
         printfDx("z:%f\n", m_speed.z);
 
-
-
     case Enemy::CKNSTATE_FLAY:
 
         m_speed = { m_speed.x / 50.0f,m_speed.y ,m_speed.z / 50.0f };
@@ -121,10 +121,12 @@ void Enemy::Step(VECTOR PlayerPos)
 
         m_pos = VAdd(m_pos, m_speed);
 
-        if (m_pos.y > 1.0f) {
+        if (m_pos.y > 1.0f) 
+        {
             m_jump -= m_gravity;
         }
-        else {
+        else 
+        {
             m_pos.y = 0.0f;
             m_jump = 0.0f;
             m_groundtouch = true;
@@ -134,13 +136,9 @@ void Enemy::Step(VECTOR PlayerPos)
         {
             m_state = CKNSTATE_NORMAL;
         }
-        
-
         break;
 
     case Enemy::PLSTATE_NUM:
-
-        break;
    
         break;
     }
@@ -159,10 +157,8 @@ void Enemy::Step(VECTOR PlayerPos)
     //    m_pos.y = mat1.m[3][1];
     //    m_pos.z = mat1.m[3][2];
     //}
-
-   
-
 }
+
 
 //---------------------
 //更新したデータを反映させる
@@ -176,6 +172,7 @@ void Enemy::Update()
     MV1SetRotationXYZ(m_hndl, m_rot);
    
 }
+
 
 //---------------------
 //描画処理
@@ -211,6 +208,7 @@ bool Enemy::Request(const VECTOR& pos, const VECTOR& speed)
     return true;
 }
 
+
 VECTOR Enemy::GetCenter()
 {
     //基本は物体の球の判定の位置
@@ -220,6 +218,7 @@ VECTOR Enemy::GetCenter()
 
     return res;
 }
+
 
 void Enemy::HitCalc(VECTOR shotspeed)
 {

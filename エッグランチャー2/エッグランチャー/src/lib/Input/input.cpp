@@ -20,7 +20,6 @@ void Input::Init()
 }
 
 
-
 void Input::Update()
 {
 	g_inputData.m_PrevKey = g_inputData.m_nowKey;

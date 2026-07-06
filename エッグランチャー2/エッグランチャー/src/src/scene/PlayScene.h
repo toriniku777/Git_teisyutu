@@ -22,6 +22,7 @@ private:
 		ENDWAIT,
 		END,	//終了前のデータ破棄
 	};
+
 	ShotManeger m_shot;
 	Player m_player;			//プレイヤー
 	CameraManeger m_camera;		//カメラ
@@ -29,29 +30,34 @@ private:
 	tagScene m_state;			//現在の状態遷移
 	BackGround m_field;			//背景
 
+
 public:
 	//コンストラクタ
 	PlayScene();
 	~PlayScene();
 
+
 	//実行処理
 	int Loop();
+
 
 	//描画処理
 	void Draw();
 
-private:
 
+private:
 	//初期化
 	void Init();
+
 
 	//データロード
 	void Load();
 	
+
 	//メイン処理
 	void Step();
 
+
 	//終了前処理
 	void Exit();
-
 };

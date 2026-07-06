@@ -12,12 +12,14 @@ public:
 	//コンストラクタ
 	DebugCamera();
 
+
 	//初期化
 	void Init();
 	
+
 	//カメラの座標計算
-	
 	void Step();
+
 
 	//カメラの更新
 	void Update();

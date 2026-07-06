@@ -32,21 +32,22 @@ void SoundManeger::Load()
     }
 }
 
+
 //---------------------
 //終了処理
 //---------------------
 void SoundManeger::Exit()
 {
-    for (int i = 0; i<m_hndl.size(); i++)
+    for (int i = 0; i < m_hndl.size(); i++)
     {
         if (m_hndl[i] != -1)
         {
             DeleteSoundMem(m_hndl[i]);
             m_hndl[i] = -1;
-       }
+        }
     }
-
 }
+
 
 //---------------------
 //毎フレーム呼ぶ処理
@@ -59,6 +60,7 @@ bool SoundManeger::Play(tagID id,
    else return true;
 }
 
+
 //---------------------
 //更新したデータを反映させる
 //---------------------
@@ -66,6 +68,7 @@ void SoundManeger::Stop (tagID id)
 {
     StopSoundMem(m_hndl[id]);
 }
+
 
 //---------------------
 //描画処理
@@ -77,6 +80,7 @@ void SoundManeger::AllStop()
         StopSoundMem(m_hndl[i]);
     }
 }
+
 
 bool SoundManeger::IsPlay(tagID id)
 {

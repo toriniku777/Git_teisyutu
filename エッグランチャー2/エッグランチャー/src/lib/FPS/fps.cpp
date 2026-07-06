@@ -15,6 +15,7 @@ typedef struct {
 
 static FpsData g_fps;//実際にfps表示に使用する変数
 
+
 //--------------------------------
 //		変数関連初期化
 //--------------------------------
@@ -25,6 +26,8 @@ void Fps::InitFps()
 	g_fps.m_nowTime = 0;
 	g_fps.m_count = 0;
 }
+
+
 //------------------------------
 //FPS表示関数
 //------------------------------
@@ -54,7 +57,6 @@ void Fps::PrintFps()
 }
 
 
-
 bool Fps::IsNextFrame()
 {
 	g_fps.m_nowTime = GetNowCount();
@@ -67,6 +69,7 @@ bool Fps::IsNextFrame()
 	}
 	else return false;
 }
+
 
 void Fps::StepFps()
 {

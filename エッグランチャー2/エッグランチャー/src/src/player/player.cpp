@@ -43,14 +43,15 @@ Player::Player()
 	m_state = PLSTATE_NORMAL;
 }
 
+
 //---------------------
 //デストラクタ
 //---------------------
 Player::~Player()
 {
-
 	Exit();
 }
+
 
 //---------------------
 //初期化
@@ -70,6 +71,8 @@ void Player::Init()
 	m_CameraRot = { 0.0f,0.0f,0.0f };
 
 }
+
+
 //---------------------
 //初期化
 //---------------------
@@ -79,9 +82,8 @@ void Player::Init(VECTOR vPos, VECTOR vRot)
 	m_rot = vRot;
 	memset(&m_speed, 0, sizeof(VECTOR));
 	m_state = PLSTATE_NORMAL;
-
-
 }
+
 
 //---------------------
 //データ関連のロード
@@ -94,6 +96,7 @@ void Player::Load()
 	}
 }
 
+
 //---------------------
 //終了処理
 //---------------------
@@ -105,6 +108,7 @@ void Player::Exit()
 		m_hndl = -1;
 	}
 }
+
 
 //---------------------
 //毎フレーム呼ぶ処理
@@ -122,7 +126,6 @@ void Player::Step(ShotManeger& shot)
 		VECTOR pos = m_pos;
 		pos.y += 50.0f;
 		
-
 		shot.RequestPlayerShot(pos, speed);
 	}
 
@@ -174,8 +177,6 @@ void Player::Step(ShotManeger& shot)
 	//m_speed.z = cosf(m_rot.y) * fSpd;
 	// 計算した速度を座標に足し算する
 	//m_pos = VAdd(m_pos, m_speed);
-
-
 }
 
 
@@ -189,6 +190,7 @@ void Player::Update()
 	MV1SetPosition(m_hndl, m_pos);
 }
 
+
 //---------------------
 //描画処理
 //---------------------
@@ -196,7 +198,6 @@ void Player::Draw()
 {
 	if (m_isActive == true)
 		MV1DrawModel(m_hndl);
-
 
 #ifdef DEBUG
 	//当たり判定を目視できる
@@ -207,8 +208,8 @@ void Player::Draw()
 	DrawFormatString(20, 60, GetColor(255, 255, 0), "P_pos.z:%.2f", m_pos.z
 	);
 #endif // DEBUG
-
 }
+
 
 VECTOR Player::GetCenter()
 {
@@ -219,6 +220,7 @@ VECTOR Player::GetCenter()
 
 	return res;
 }
+
 
 void Player::HitCalc()
 {

@@ -13,6 +13,7 @@ PlayCamera::PlayCamera()
 	m_upVec = ZERO;
 }
 
+
 //--------------------
 //初期化
 //--------------------
@@ -28,7 +29,6 @@ void PlayCamera::Init()
 void PlayCamera::Step(VECTOR forcus, float rotY)
 {
 	
-
 	if (CheckHitKey(KEY_INPUT_RIGHT))
 	{
 		m_CamaraRot.y += 0.05;
@@ -60,7 +60,6 @@ void PlayCamera::Step(VECTOR forcus, float rotY)
 	Dir = VNorm(Dir);
 
 	
-
 	// 行列計算でカメラ位置を求める-----------------------------
 	VECTOR ChikinPos = forcus;
 	VECTOR matDefault = { 0.0f, 350.0f, -550.0f };
@@ -86,6 +85,7 @@ void PlayCamera::Step(VECTOR forcus, float rotY)
 	m_targetPos.y += 200.0f;
 
 }
+
 
 void PlayCamera::Update()
 {
